@@ -5,3 +5,40 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+.login{
+    margin:auto;
+    width: 30rem;
+    background: rgb(43, 3, 43);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.btn-login{
+    width: 10rem;
+    &:hover{
+        box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(235, 234, 234, 0.19);
+    }
+    &:active{
+        transform: translateY(4px);
+    }
+}
+.home{
+    margin:auto;
+    width: fit-content;
+    background: rgb(43, 3, 43);
+    border-radius: 1rem;
+    padding: 5rem;
+}
+.not-private{
+    margin:auto;
+    width: fit-content;
+    background: rgb(43, 3, 43);
+    border-radius: 1rem;
+    padding: 5rem;
+}
+.private{
+    margin:auto;
+    width: fit-content;
+    background: rgb(43, 3, 43);
+    border-radius: 1rem;
+    padding: 5rem;
+}

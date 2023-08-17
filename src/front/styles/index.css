@@ -1,3 +1,21 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+body{
+    background: rgb(31, 0, 31);
+}
+.btn-login-nav{
+    background: rgb(43, 3, 43);
+    width: 8rem;
+    height: 2.8rem;
+
+    &:hover{
+        box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(235, 234, 234, 0.19);
+    }
+    &:active{
+        transform: translateY(4px);
+    }
+}
+button{
+    outline: none;
+}
