@@ -9,7 +9,9 @@ export const Private = (...props) => {
 	const { store, actions } = useContext(Context);
 	useEffect(()=>{
 		actions.private()
+		
 	},[])
+	
 	
 	store.hiddenLogout ? actions.changeLogoutButton(false): null 
 

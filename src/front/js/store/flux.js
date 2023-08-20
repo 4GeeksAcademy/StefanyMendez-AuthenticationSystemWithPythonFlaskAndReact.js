@@ -59,10 +59,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 						store.password = null
 					}
 					
-					
 					if (result.msg == "ok") {
 						setStore({signup:true})
 						alert("User add success")
+						setStore({hiddenLogin:true})
 					}
 					
 					
